@@ -1,0 +1,15 @@
+<div class="card">
+    <div class="card-header text-center">
+        <h2>Results</h2>
+    </div>
+        <div class="card-body">
+
+            <p class="card-text">{{ text_article }}</p>
+            <br>
+            <p class="card-text">This article is <b>{{ response }}</b></p>
+
+        <div class="text-center">
+            <a href="{{ url_for('form_predict') }}" class="btn btn-primary">Back</a>
+       </div>
+    </div>
+</div>
